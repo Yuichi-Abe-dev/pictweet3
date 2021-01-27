@@ -40,6 +40,7 @@
 
 ### projectsディレクトリに移動
 % cd
+
 % cd projects
 
 ### Lesson2_10ブランチからディレクトリをダウンロードする
