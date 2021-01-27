@@ -39,44 +39,56 @@
 ## コピーの手順
 
 ### projectsディレクトリに移動
+```
 % cd
-
 % cd projects
-
+```
 ### マスターからディレクトリをダウンロードする
+```
 % git clone https://github.com/Yuichi-Abe-dev/pictweet3.git
-
+```
 ### マスターからディレクトリをダウンロードする
+```
 % git clone -b ブランチ名 https://github.com/Yuichi-Abe-dev/pictweet3.git
-
+```
 ### pictweet3に移動
+```
 % cd pictweet3
-
+```
 ### ※Gemfileの末尾に以下を追記
+```
 gem 'rename'
-
+```
 ### Gemをインストール
+```
 % bundle install
-
+```
 ### ※アプリ名の変更
+```
 % rails g rename:into <変更後の名前>
-
+```
 
 もしくは、config/application.rbの９行目moduleに続くアプリ名を手動で変更
 
 ### JavaScriptのパッケージをインストール
+```
 % yarn install
-
+```
 ### データベースの再生成
+```
 % rails db:migrate:reset
-
+```
 ### サーバーを立ち上げる
+```
 % rails s
+```
 
 ## データベースにテストデータの追加
-### コンソールを起動
-rails c
 
+### コンソールを起動
+```
+rails c
+```
 ### ユーザーの追加
 ```
 pry(main)> User.create(nickname: "test1", email: "test1@test.com", password: "11111111")
