@@ -44,7 +44,7 @@
 % cd projects
 
 ### Lesson2_10ブランチからディレクトリをダウンロードする
-% git clone -b Lesson2_10 https://github.com/
+% git clone -b Lesson2_10 https://github.com/Yuichi-Abe-dev/pictweet3
 
 ### pictweet3に移動
 % cd pictweet3
