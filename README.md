@@ -77,10 +77,10 @@ gem 'rename'
 ### コンソールを起動
 rails c
 
-### 
-ユーザーの追加
+### ユーザーの追加
+```
 pry(main)> User.create(nickname: "test1", email: "test1@test.com", password: "11111111")
 pry(main)> User.create(nickname: "test2", email: "test2@test.com", password: "11111111")
+```
 
-###
-投稿の追加
+### 投稿の追加
