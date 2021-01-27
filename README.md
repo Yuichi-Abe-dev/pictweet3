@@ -52,13 +52,13 @@
 ### pictweet3に移動
 % cd pictweet3
 
-### Gemfileの末尾に以下を追記
+### ※Gemfileの末尾に以下を追記
 gem 'rename'
 
 ### Gemをインストール
 % bundle install
 
-### アプリ名の変更
+### ※アプリ名の変更
 % rails g rename:into <変更後の名前>
 
 ### JavaScriptのパッケージをインストール
