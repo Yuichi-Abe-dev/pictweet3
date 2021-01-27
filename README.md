@@ -30,6 +30,7 @@
 | text     | string | null: false |
 | image    | string | null: false |
 | user_id  | string | null: false |
+| tweet_id | string | null: false |
 
 ### Association
 - belongs_to :user
