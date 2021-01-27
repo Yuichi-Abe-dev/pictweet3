@@ -35,3 +35,27 @@
 ### Association
 - belongs_to :user
 - belongs_to :tweet
+
+##コピーの手順
+
+projectsディレクトリに移動
+% cd
+% cd projects
+
+Lesson2_10ブランチからディレクトリをダウンロードする
+% git clone -b Lesson2_10 https://github.com/
+
+pictweet3に移動
+% cd pictweet3
+
+Gemをインストール
+% bundle install
+
+JavaScriptのパッケージをインストール
+% yarn install
+
+データベースの再生成
+% rails db:migrate:reset
+
+サーバーを立ち上げる
+% rails s
