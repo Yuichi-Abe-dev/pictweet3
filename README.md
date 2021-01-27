@@ -61,6 +61,9 @@ gem 'rename'
 ### ※アプリ名の変更
 % rails g rename:into <変更後の名前>
 
+
+もしくは、config/application.rbの９行目moduleに続くアプリ名を手動で変更
+
 ### JavaScriptのパッケージをインストール
 % yarn install
 
