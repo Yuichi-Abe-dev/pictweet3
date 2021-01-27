@@ -59,7 +59,7 @@ gem 'rename'
 % bundle install
 
 ### アプリ名の変更
-rails g rename:into <変更後の名前>
+% rails g rename:into <変更後の名前>
 
 ### JavaScriptのパッケージをインストール
 % yarn install
