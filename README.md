@@ -96,3 +96,9 @@ pry(main)> User.create(nickname: "test2", email: "test2@test.com", password: "11
 ```
 
 ### 投稿の追加
+```
+pry(main)> Tweet.create(text: "post1", image: "https://www.pakutaso.com/shared/img/thumb/kumakichi0221011_TP_V.jpg", user_id: "1")
+pry(main)> Tweet.create(text: "post2", image: "https://static.amanaimages.com/imgroom/rf_preview640/10860/10860000316.jpg", user_id: "1")
+pry(main)> Tweet.create(text: "post3", image: "https://www.pakutaso.com/shared/img/thumb/RED20124076_TP_V.jpg", user_id: "2")
+pry(main)> Tweet.create(text: "投稿テスト4", image: "https://www.pakutaso.com/shared/img/thumb/kumakichi0221011_TP_V.jpg", user_id: "2")
+```
